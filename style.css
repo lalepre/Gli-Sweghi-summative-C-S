@@ -1,3 +1,4 @@
 .bg-home{
-    background-image: url('images/home.jpeg');
+    background-image: url('images/home.png');
+    background-size: cover;
 }
