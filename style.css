@@ -1,4 +1,17 @@
-.bg-home{
+.pizza-container{
     background-image: url('images/home.png');
     background-size: cover;
+
+position: absolute;
+background-repeat: no-repeat;
+left: 0%;
+top: 50%;
+width: 140px;
+height: 100px;
+animation: impastoanimation 4s infinite;
 }
+
+.pizza-container img{
+    width: 300%;
+}
+
