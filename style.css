@@ -21,15 +21,14 @@ animation: pizza 4s;
         right: 50%;
     }
     50%{
-        top: 60%;
+        top: 50%;
         left: 20%;
     }   
     75%{
         top: 70%;
         left: 30%;
     }
-    100{
+    100%{
         top: 50%;
         left: 50%;
     }
-}
