@@ -1,0 +1,37 @@
+.bg-home{
+    background-image: url(../Gli-Sweghi-summative-C-S/images/CACTUS.PNG);
+    background-size: cover;
+}
+.AF-container{
+position: absolute;
+left: 10%;
+top: 10%;
+width: 800px;
+height: 200px;
+animation: AF 10s;
+
+}
+
+
+
+@keyframes AF{
+    20%{
+        top: 80%;
+        left: 10%;
+    }
+    40%{
+        top: 60%;
+        left: 20%;
+    }   
+    60%{
+        top: 70%;
+        left: 30%;
+    }
+    80%{
+        top: 50%;
+        left: 50%;
+    }
+    100%{
+        top: 100%;
+    }
+}
