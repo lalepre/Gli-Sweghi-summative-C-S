@@ -6,8 +6,8 @@
 position: absolute;
 left: 0%;
 top: 50%;
-width: 600px;
-height: 300px;
+width: 700px;
+height: 400px;
 animation: pizza 4s;
 
 }
@@ -16,8 +16,9 @@ animation: pizza 4s;
 
 @keyframes pizza{
     25%{
-        top: 80%;
+        top: 500%;
         left: 10%;
+        right: 50%;
     }
     50%{
         top: 60%;
