@@ -1,5 +1,5 @@
 .bg-home{
-    background-image: url(../Gli-Sweghi-summative-C-S/images/CACTUS.PNG);
+    background-image: url("../Gli-Sweghi-summative-C-S/images/bluback.png");
     background-size: cover;
 }
 .AF-container{
@@ -7,7 +7,7 @@ position: absolute;
 left: 10%;
 top: 10%;
 width: 800px;
-height: 200px;
+height: 150px;
 animation: AF 10s;
 
 }
