@@ -16,8 +16,7 @@
   @keyframes breadAnimation {
     0%{
       top: 120%;
-      left: 30
-      %;
+      left: 30%;
       transform: rotate(-30deg)
     }
   
