@@ -1,13 +1,13 @@
 .bg-background{
-    background-image: url("images/background.png");
+    background-image: url("../Gli-Sweghi-summative-C-S/images/backroundwithrock.png");
     background-size: cover;
  }
   .bread-container{
     position: absolute;
     left: 35%;
-    top: 40%;
-    width: 120px;
-    animation: breadAnimation 10s;
+    top: 70%;
+    width: 500px;
+    animation: breadAnimation 7s;
   }
   .bread-container img{
     width: 50%;
@@ -15,20 +15,21 @@
   
   @keyframes breadAnimation {
     0%{
-      top: 25%;
-      left: 75%;
+      top: 120%;
+      left: 30
+      %;
       transform: rotate(-30deg)
     }
   
     60%{
-      top: 38%;
-      left: 40%;
-      transform: rotate(30deg);
+      top: 40%;
+      left: 1%;
+      transform: rotate(300deg);
       /* width: 240px; */
     }
   
     100%{
-      left: 35%;
+      left: 70%;
       top: 40%;
   
     }
