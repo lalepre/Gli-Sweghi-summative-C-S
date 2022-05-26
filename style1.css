@@ -1,38 +1,45 @@
 .bg-background{
     background-image: url("../Gli-Sweghi-summative-C-S/images/backroundwithrock.png");
-    background-size: cover;
+    background-size: contain;
+    min-height: 100vh;
  }
   .bread-container{
     position: absolute;
     left: 35%;
-    top: 70%;
-    width: 500px;
-    animation: breadAnimation 7s;
+    top: 50%;
+    width: 100px;
+    animation: breadAnimation 4s infinite;
   }
   .bread-container img{
-    width: 50%;
+    width: 300%;
   }
   
   @keyframes breadAnimation {
     0%{
-      top: 120%;
-      left: 30%;
+      top: 50%;
+      left: 5%;
       transform: rotate(-30deg)
     }
   
     60%{
-      top: 40%;
-      left: 1%;
-      transform: rotate(300deg);
+      top: 60%;
+      left: 40%;
+      transform: rotate(30deg);
       /* width: 240px; */
     }
-  
-    100%{
-      left: 70%;
-      top: 40%;
+
+    
+
+    70%{
+      left: 75%;
+      top: 25%;
   
     }
-  }
+    
+    100%{
+      left: 50%;
+      top: 5%;
+    }
   
   h2{
     text-align: center;
